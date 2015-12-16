@@ -1,0 +1,103 @@
+body{
+	margin:0;
+	padding:0;
+	font-size: 20px;
+	font-family:'黑体';
+}
+#sence{
+	width: 1300px;
+	height:640px;
+	margin:0 auto;
+	position: relative;
+	border:1px none;
+	background-image:url('../images/bj-1.png');
+	background-size:cover;
+	box-shadow:0 0 15px #3371A7;
+	border-radius:5px;
+	background-repeat:no-repeat;
+}
+.button{
+	font-family:'汉仪娃娃篆简';
+	background-color:#8B0086;
+	color: white;
+    font-size: 22px;
+    border-radius: 3px;
+	padding:5px 15px;
+	cursor:pointer;
+	line-height: normal;
+}
+.button:hover{
+	background-color:orange;
+	color:#8B0086;
+}
+#sence #win #shure{
+	position: absolute;
+	bottom: 10px;
+	right:5px;
+}
+#sence #win{
+	width: 400px;
+	height:260px;
+	background-color:#3879AC;
+	border-radius:5px;
+	line-height:260px;
+	text-align: center;
+	font-family:'汉仪娃娃篆简';
+	font-size:26px;
+	color:#8B0086;
+	position: relative;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top:-130px;
+	margin-left:-200px;
+	z-index: 66;
+	display:none;
+}
+#sence #box{
+	width:1090px;
+	height:630px;
+	margin:0 auto;
+	position:relative;
+}
+.poker{
+	width:130px;
+	height:180px;
+	box-shadow: 0 0 5px black;
+	border-radius:2px;
+	position: relative;
+	position:absolute;
+	background-size: cover;
+	color: #950B32;
+    font-size: 22px;
+    font-weight: 600;
+    background-repeat:no-repeat;
+}
+#box .poker .tou{
+	position:absolute;
+	top:3px;
+	left:7px;
+}
+#box .poker .wei{
+	position:absolute;
+	bottom:3px;
+	right:7px;
+	-webkit-transform:rotate(180deg);
+}
+#box .xiaLeft{
+	box-shadow:none;
+	position: absolute;
+	top:440px;
+	left:268px;
+}
+#box .xiaLefts{
+	box-shadow:none;
+	position: absolute;
+	top:440px;
+	left:680px;
+}
+#sence #box .button{
+	 position: absolute;
+    top: 560px;
+    left: 500px;
+}
